@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .main_menu ul{
     text-align: end;
 }
@@ -30,14 +34,23 @@ section{
     height: 100vh;
 }
 
-.sec_red{
+#sec_red{
     background: red;
 }
 
-.sec_green{
+#sec_green{
     background-color: green;
 }
 
-.sec_yellow{
+#sec_yellow{
     background-color: yellow;
 }
+
+#sec_yellow h1{
+    color: green;
+}
+
+.contain_img h1{
+    color: yellow;
+}
+
