@@ -9,7 +9,7 @@ html {
     scroll-behavior: smooth;
     font-family: 'Rubik Mono One', sans-serif;
   }
-
+/* header */
 nav{
     position: fixed;
     top: 0;
@@ -19,14 +19,13 @@ nav{
 
 .main_menu ul{
     text-align: end;
-
+    
 }
 
-.main_menu ul li, a{
+.main_menu  li, a{
     text-decoration: none;
     padding: 20px;
     display: inline-block;
-    text-shadow: 1px 1px black;
     color: black;
 }
 
@@ -36,7 +35,10 @@ a{
     background-color: white;
     border-radius: 50%;
     padding: 20px;
+    box-shadow: 2px 3px 10px;
 }
+
+/* main */
 
 section{
     height: 100vh;
